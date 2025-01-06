@@ -21,7 +21,7 @@ Analyzes user queries using ReAct to determine which sub-agent should handle the
 - **Agent 0**: Handles general-purpose queries (e.g., `answer_questions`, `web_search`, `current_weather`).
 - **Agent 1**: Manages appointment-related queries (e.g., `schedule_appointment`, `reschedule_appointment`).
 
-![Architecture Overview](Architecture_Overview.png)
+![Architecture Overview](resources\Architecture_Overview.png)
 
 ---
 
@@ -39,8 +39,8 @@ To create a Telegram bot:
 
 1. **📥 Clone the repository**:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/osamatech786/Telegram-Bot
+    cd Telegram-Bot
     ```
 
 2. **🐍 Create a virtual environment**:
@@ -85,6 +85,13 @@ The bot uses Python's `logging` module to log important events and errors. Logs 
 - [OpenAI API](https://beta.openai.com/docs/)  
 - [Telegram Bot API](https://core.telegram.org/bots/api)  
 - [SerpAPI](https://serpapi.com/)  
+- [OpenWeather API](https://openweathermap.org/api)
+
+---
+
+## 📷 Output
+![Architecture Overview](resources\1.png)
+![Architecture Overview](resources\2.png)
 
 📜 **License**  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
