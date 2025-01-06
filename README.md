@@ -21,7 +21,7 @@ Analyzes user queries using ReAct to determine which sub-agent should handle the
 - **Agent 0**: Handles general-purpose queries (e.g., `answer_questions`, `web_search`, `current_weather`).
 - **Agent 1**: Manages appointment-related queries (e.g., `schedule_appointment`, `reschedule_appointment`).
 
-![Architecture Overview](resources\Architecture_Overview.png)
+![Architecture Overview](resources/Architecture_Overview.png)
 
 ---
 
@@ -90,8 +90,11 @@ The bot uses Python's `logging` module to log important events and errors. Logs 
 ---
 
 ## 📷 Output
-![Architecture Overview](resources\1.png)
-![Architecture Overview](resources\2.png)
+![code_output_1](resources/1.png)
+![code_output_2](resources/2.png)
 
+---
+Connect with me <a href="https://www.linkedin.com/in/osamatech786" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
+---
 📜 **License**  
 This project is licensed under the MIT License.
